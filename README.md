@@ -10,16 +10,20 @@
 ## Overview
 Automated Structural Health Monitoring (SHM) systems using standard deep learning are highly brittle to environmental noise (shadows, stains) and geometric distractors (the "Spalling Paradox"). 
 
-This repository introduces a **Scientific Machine Learning (SciML)** framework that bridges statistical anomaly detection with deterministic solid mechanics. By training an unsupervised Convolutional $\beta$-Variational Autoencoder ($\beta$-VAE) to establish a healthy structural prior, anomalies are isolated via Mean Squared Error ($\mathcal{E}_{MSE}$). Crucially, this pipeline implements a post-reconstruction deterministic physics filter that mathematically evaluates visual anomalies against:
+This repository introduces a **Scientific Machine Learning (SciML)** framework that bridges statistical anomaly detection with deterministic solid mechanics. 
+
+**final.ipynb** is the organized final notebook that showcases my work. 
+
+**z_exploratory_analysis.ipynb** is a notebook used to run different scenarios/change of parameters.
+
+By training an unsupervised Convolutional $\beta$-Variational Autoencoder ($\beta$-VAE) to establish a healthy structural prior, anomalies are isolated via Mean Squared Error ($\mathcal{E}_{MSE}$). Crucially, this pipeline implements a post-reconstruction deterministic physics filter that mathematically evaluates visual anomalies against:
 1. **Analytical Solid Mechanics** (Airy Stress Fields)
 2. **Topological Curvature** (Hessian Matrix Eigenvalues)
 3. **Optical Cavity Physics** (Variance-based light trapping)
 
 This approach mathematically erases out-of-distribution noise and verifies true structural defects, bypassing the need for exhaustive pixel-level annotations.
 
-**final.ipynb** is the organized final notebook that showcases my work. 
 
-**z_exploratory_analysis.ipynb** is a notebook used to run different scenarios/change of parameters.
 
 ---
 
