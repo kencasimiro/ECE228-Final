@@ -24,8 +24,9 @@ This approach mathematically erases out-of-distribution noise and verifies true 
 * **Unsupervised Generative Prior:** Custom Convolutional $\beta$-VAE mapping complex concrete textures into a continuous latent distribution.
 * **The SciML Master Equation:** Custom PyTorch tensor operations integrating:
   * Scharr directional gradient extraction.
-  * Spatially-varying Airy Stress field alignment (Mohr's Circle).
-  * Hessian trace/determinant calculations for linear geometry enforcement.
+  * Analytical Solid Mechanics (Airy Stress Field)
+  * Topological Curvature (Hessian Matrix Analysis)
+  * Optical Cavity Variance
 * **Environmental Stress Injection:** Stochastic pipeline to synthetically degrade test imagery with Gaussian blur and severe geometric shadowing.
 
 ---
