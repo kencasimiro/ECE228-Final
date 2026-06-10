@@ -17,6 +17,9 @@ This repository introduces a **Scientific Machine Learning (SciML)** framework t
 
 This approach mathematically erases out-of-distribution noise and verifies true structural defects, bypassing the need for exhaustive pixel-level annotations.
 
+final.ipynb is the organized final notebook that showcases my work. 
+z_exploratory_analysis.ipynb is a notebook used to run different scenarios/change of parameters.
+
 ---
 
 ## Features
