@@ -46,6 +46,7 @@ Files can be downloaded at the following location:
 https://apps.peer.berkeley.edu/phi-net/?page_id=1304
 
 ### File setup
+```
 ├── dataset/
 │   ├── task7_X_train.npy
 │   ├── task7_y_train.npy
@@ -58,3 +59,4 @@ https://apps.peer.berkeley.edu/phi-net/?page_id=1304
 ├── final.ipynb
 ├── analysis.ipynb
 └── README.md
+```
